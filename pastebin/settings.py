@@ -24,7 +24,7 @@ SECRET_KEY = 'correct horse battery staple'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".pastesite.matoking.com"]
+ALLOWED_HOSTS = ["mega1leak.heroku.com"]
 
 # Limits
 # Limit the amount of paste submissions, edits, etc. unregistered guests and registered users
