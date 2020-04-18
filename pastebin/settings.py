@@ -24,7 +24,7 @@ SECRET_KEY = 'correct horse battery staple'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".pastesite.matoking.com"]
+ALLOWED_HOSTS = ["mega1leaks.heroku.com"]
 
 # Limits
 # Limit the amount of paste submissions, edits, etc. unregistered guests and registered users
@@ -90,9 +90,6 @@ MIDDLEWARE_CLASSES = (
     'pastebin.middleware.PastebinMiddleware',
 )
 
-INTERNAL_IPS = (
-    "192.168.1.3"
-)
 
 ROOT_URLCONF = 'pastebin.urls'
 
